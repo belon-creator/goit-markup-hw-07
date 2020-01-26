@@ -27,7 +27,14 @@ ul {
 .logo-link {
   font-family: var(--font);
 }
-
+.logo-link {
+  font-size: 20px;
+}
+/* .container {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+} */
 .main-header {
   background-color: teal;
 }
@@ -41,7 +48,7 @@ a {
 }
 
 .hdr-title {
-  font-size: 30px;
+  font-size: 28px;
   color: var(--hdr-color);
   font-family: var(--font);
   font-weight: 700;
@@ -63,11 +70,12 @@ a {
   text-align: center;
   font-weight: 700;
 }
+.hdr-btn:hover {
+  cursor: pointer;
+}
 
 /* basic styles for main */
-.content {
-  background-color: tomato;
-}
+
 .title {
   font-size: 22px;
   color: var(--title-color);
@@ -100,5 +108,86 @@ a {
 }
 /* phone */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 659px) {
+  .main-header {
+    min-height: 540px;
+    background-repeat: no-repeat;
+    background-image: url(../images/mobile.png);
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navigation {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .user-nav {
+    display: flex;
+    margin-bottom: 114px;
+  }
+  .user-nav-link {
+    display: block;
+    padding: 8px 16px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+  }
+  .hdr-title {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .hdr-txt {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  /* partners list */
+  .title {
+    margin: 0;
+    padding-top: 72px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .partners-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner-name,
+  .partner-description {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+  }
+  .content {
+    padding-bottom: 56px;
+  }
+}
+@media screen and (min-width: 660px) {
+  .main-header {
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-image: url(../images/tablet.png);
+  }
+}
+
+@media screen and (min-width: 940px){
+    .main-header {
+        min-height: 700px;
+        background-repeat: no-repeat;
+        background-image: url(../images/desctop.png);
+      }
+    }
 }
