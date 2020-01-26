@@ -193,12 +193,8 @@ a {
   .navigation {
     padding-left: 54px;
     padding-right: 54px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .user-nav {
-    display: flex;
   }
 }
 
