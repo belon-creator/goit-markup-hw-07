@@ -4,3 +4,101 @@ html {
 * {
   box-sizing: inherit;
 }
+
+/* basic styles */
+
+/* basicstyles for header */
+:root {
+  --font: Montserrat, Roboto;
+  --hdr-color: #fff;
+  --title-color: #333;
+  --txt-color: #666;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.logo,
+.logo-link {
+  font-family: var(--font);
+}
+
+.main-header {
+  background-color: teal;
+}
+
+.user-nav-list,
+a {
+  font-size: 14px;
+  color: var(--hdr-color);
+  font-family: var(--font);
+  font-weight: 700;
+}
+
+.hdr-title {
+  font-size: 30px;
+  color: var(--hdr-color);
+  font-family: var(--font);
+  font-weight: 700;
+}
+.hdr-txt {
+  font-size: 18px;
+  color: var(--hdr-color);
+  font-family: var(--font);
+  font-weight: 300;
+}
+.hdr-btn {
+  all: unset;
+  min-width: 280px;
+  min-height: 40px;
+  border-radius: 20px;
+  background-color: #ff4e50;
+  font-family: var(--font);
+  color: var(--hdr-color);
+  text-align: center;
+  font-weight: 700;
+}
+
+/* basic styles for main */
+.content {
+  background-color: tomato;
+}
+.title {
+  font-size: 22px;
+  color: var(--title-color);
+  font-family: var(--font);
+  font-weight: 700;
+}
+.partner-name {
+  font-size: 14px;
+  color: var(--title-color);
+  font-family: var(--font);
+  font-weight: 700;
+}
+.partner-description {
+  font-size: 14px;
+  color: var(--txt-color);
+  font-family: var(--font);
+  font-weight: 300;
+}
+.btn {
+  all: unset;
+  min-width: 280px;
+  min-height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  font-family: var(--font);
+  color: #ff4e50;
+  text-align: center;
+  font-weight: 700;
+}
+/* phone */
+
+@media screen and (min-width: 320px) {
+}
