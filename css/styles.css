@@ -127,11 +127,17 @@ a {
   margin-bottom: 50px;
   align-items: flex-start;
 }
+.partner:hover .svg-btn,
+.partner:focus .svg-btn {
+  transform: scale(1.05);
+}
+
 .partner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transform: scale(1);
 }
 .partner-name {
   font-size: 14px;
@@ -233,7 +239,10 @@ a {
   .partners-list-item {
     margin-bottom: 30px;
   }
-
+  .partner:hover .svg-btn,
+  .partner:focus .svg-btn {
+    transform: scale(1.05);
+  }
   .content {
     padding-bottom: 56px;
   }
@@ -286,6 +295,10 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
+  .partner:hover .svg-btn,
+  .partner:focus .svg-btn {
+    transform: scale(1.05);
+  }
 }
 
 /* desktop */
@@ -300,7 +313,7 @@ a {
     margin-left: auto;
   }
   .container {
-    width: 940px;
+    width: 920px;
     margin-left: auto;
     margin-right: auto;
   }
