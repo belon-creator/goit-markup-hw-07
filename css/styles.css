@@ -241,7 +241,7 @@ a {
   }
   .partner:hover .svg-btn,
   .partner:focus .svg-btn {
-    transform: scale(1.05);
+    transform: translateX(100%) scale(1.05);
   }
   .content {
     padding-bottom: 56px;
