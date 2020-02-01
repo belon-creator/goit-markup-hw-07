@@ -248,7 +248,7 @@ a {
   }
   .svg-btn {
     right: 58px;
-    top: 90px;
+    top: 80px;
   }
   .content {
     padding-bottom: 56px;
@@ -316,8 +316,6 @@ a {
   .partner:hover .svg-btn,
   .partner:focus .svg-btn {
     transform: scale(1.05);
-    right: 28px;
-    top: 84px;
   }
 }
 
