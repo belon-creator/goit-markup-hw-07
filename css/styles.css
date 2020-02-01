@@ -316,6 +316,8 @@ a {
   .partner:hover .svg-btn,
   .partner:focus .svg-btn {
     transform: scale(1.05);
+    right: 28px;
+    top: 84px;
   }
 }
 
